@@ -29,4 +29,4 @@
  
  + and explain your recommendation.
 testing this
- [![PyPI Latest Release](https://img.shields.io/pypi/v/pandas.svg)](https://pypi.org/project/pandas/)
+ 
