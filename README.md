@@ -53,12 +53,11 @@ EIN, NAME, SPECIAL_CONSIDERATIONS,STATUS
 + **Neurons:** 216
 + **Hidden Layers:** 2
 + **Output Layer:** 1
-
-![a1](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/a1.png)
-
-
 + **Activation functions:**
  Relu in the first and second layers. Sigmoid in the output layer
+ 
+![a1](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/a1.png)
+
 + **Additional Steps taken to increase model performance:**
     - More non-beneficial variables were taken off: SPECIAL_CONSIDERATIONS,STATUS
     - The bining of feature APPLICATION_TYPE was changed by increasing the number of values for each bin.
@@ -84,11 +83,11 @@ EIN, NAME, SPECIAL_CONSIDERATIONS,STATUS
 + **Neurons:** 324
 + **Hidden Layers:** 3
 + **Output Layer:** 1
++ **Activation functions:**
+ Relu in the first and second layer. Sigmoid in the output layer
 
 ![a2](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/a2.png)
 
-+ **Activation functions:**
- Relu in the first and second layer. Sigmoid in the output layer
 + **Additional Steps taken to increase model performance:**
     -  Adding a new layer for a total of 324 neurons (108 each) for the reasons explained above. Besides, changing the structure of the model with a new layer can help the model identifying nonlinear characteristics of the input data with no additional data. It is considered that 3 layers should be enough even for more complex model, so only 3 are used in this case.  
     -  Increasing the number of epochs to the training regimen for a total of 200. This contributes to provide each neuron with more information about the input data, increasing the chances for the neurons to apply more effective weight coeficients.
@@ -113,17 +112,17 @@ EIN, NAME, SPECIAL_CONSIDERATIONS,STATUS
 + **Neurons:** 324
 + **Hidden Layers:** 3
 + **Output Layer:** 1
++ **Activation functions:**
 
+ Leaky Relu for the three layers. Sigmoid in the output layer
 ![a3](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/a3.png)
 
-+ **Activation functions:**
- Leaky Relu for the three layers. Sigmoid in the output layer
 + **Steps taken to increase model performance:**
     -  Changing the activation function of the three layers to Leaky ReLU. Using this  higher complexity activation function could help avoiding the risk of ignoring lower complexity features.  
     - Increasing the number of epochs to the training regimen for a total of 500. This contributes to provide each neuron with more information about the input data, increasing the chances for the neurons to apply more effective weight coeficients. 
  + **Target model performance of 75% of accuracy:** Not achieved. Accuracy of 0.723498523235321
 
-[a31](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/a31.png)  
+![a31](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/a31.png)  
 
 ## Summary
 
