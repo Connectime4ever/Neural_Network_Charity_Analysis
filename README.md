@@ -110,14 +110,13 @@ pic
 + **Steps taken to increase model performance:**
     -  Changing the activation function of the three layers to Leaky ReLU. Using this  higher complexity activation function could help avoiding the risk of ignoring lower complexity features.  
     - Increasing the number of epochs to the training regimen for a total of 500. This contributes to provide each neuron with more information about the input data, increasing the chances for the neurons to apply more effective weight coeficients. 
- + **Target model performance of 75% of accuracy:** Not achieved. Accuracy of 0.7257142663002014
+ + **Target model performance of 75% of accuracy:** Not achieved. Accuracy of 0.723498523235321
 pic   
 
 ## Summary
 
- + None of the three attemps of optimizing the original deep learning model achieved the target model performance of 75% of accuracy rate. 
+ + None of the three attemps of optimizing the original deep learning model were successfull neither improved the original model performance. All of them show an accuracy rate of 0.72 approximately, underperforming the target of 75% set for the model.  
  
- + It is recomended to try a different approach trying to solve this classification problem using support vector machines (SVMs). Sometimes SVMs could overperform basic or deep learning models in binary classification problems like this one.
-Besides, its implementation requires less coding. 
+ + It is recomended to try a different approach using support vector machines (SVMs) to solve this classificaton problem. Sometimes SVMs could overperform basic or deep learning models in binary classification cases like this one. Besides, its implementation requires less coding. 
 
  
