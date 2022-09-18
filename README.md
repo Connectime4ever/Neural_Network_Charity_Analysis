@@ -34,7 +34,7 @@ EIN, NAME
 Relu in the first and second layers. Sigmoid in the output layer
 + **Target model performance of 75% of accuracy:** Not achieved. Accuracy of 0.7257142663002014
 
-![D1](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/D1.png)
+![D21](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/D21.png)
 
 ---
 
@@ -54,7 +54,7 @@ EIN, NAME, SPECIAL_CONSIDERATIONS,STATUS
 + **Hidden Layers:** 2
 + **Output Layer:** 1
 
-![a1](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/a2.png)
+![a1](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/a1.png)
 
 
 + **Activation functions:**
@@ -122,7 +122,7 @@ EIN, NAME, SPECIAL_CONSIDERATIONS,STATUS
     -  Changing the activation function of the three layers to Leaky ReLU. Using this  higher complexity activation function could help avoiding the risk of ignoring lower complexity features.  
     - Increasing the number of epochs to the training regimen for a total of 500. This contributes to provide each neuron with more information about the input data, increasing the chances for the neurons to apply more effective weight coeficients. 
  + **Target model performance of 75% of accuracy:** Not achieved. Accuracy of 0.723498523235321
- 
+
 [a31](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/a31.png)  
 
 ## Summary
