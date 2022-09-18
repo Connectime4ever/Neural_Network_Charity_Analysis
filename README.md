@@ -27,7 +27,8 @@ ASK_AMT
 + **Removed variables (non-beneficial):**
 EIN, NAME
 + **Neurons:** 110
-+ **Layers:** 2
++ **Hidden Layers:** 2
++ **Output Layer:** 1
 pic
 + **Activation functions:**
 Relu in the first and second layers. Sigmoid in the output layer
@@ -49,7 +50,8 @@ ASK_AMT
 + **Removed variables (non-beneficial):**
 EIN, NAME, SPECIAL_CONSIDERATIONS,STATUS
 + **Neurons:** 216
-+ **Layers:** 2
++ **Hidden Layers:** 2
++ **Output Layer:** 1
 pic
 + **Activation functions:**
  Relu in the first and second layers. Sigmoid in the output layer
@@ -75,7 +77,8 @@ ASK_AMT
 + **Removed variables (non-beneficial):**
 EIN, NAME, SPECIAL_CONSIDERATIONS,STATUS
 + **Neurons:** 324
-+ **Layers:** 3
++ **Hidden Layers:** 3
++ **Output Layer:** 1
 pic
 + **Activation functions:**
  Relu in the first and second layer. Sigmoid in the output layer
