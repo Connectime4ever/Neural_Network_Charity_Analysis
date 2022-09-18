@@ -113,8 +113,8 @@ EIN, NAME, SPECIAL_CONSIDERATIONS,STATUS
 + **Hidden Layers:** 3
 + **Output Layer:** 1
 + **Activation functions:**
-
  Leaky Relu for the three layers. Sigmoid in the output layer
+
 ![a3](https://github.com/Connectime4ever/Neural_Network_Charity_Analysis/blob/main/a3.png)
 
 + **Steps taken to increase model performance:**
