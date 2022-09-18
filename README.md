@@ -115,7 +115,7 @@ pic
 
 ## Summary
 
- + None of the three attemps of optimizing the original deep learning model were successfull neither improved the original model performance. All of them show an accuracy rate of 0.72 approximately, underperforming the target of 75% set for the model.  
+ + None of the three attemps of optimizing the original deep learning model were successful neither improved the original model performance. All of them show an accuracy rate of 0.72 approximately, underperforming the target of 75% set for the model.  
  
  + It is recomended to try a different approach using support vector machines (SVMs) to solve this classificaton problem. Sometimes SVMs could overperform basic or deep learning models in binary classification cases like this one. Besides, its implementation requires less coding. 
 
