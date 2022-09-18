@@ -57,7 +57,7 @@ pic
     - More non-beneficial variables were taken off: SPECIAL_CONSIDERATIONS,STATUS
     - The bining of feature APPLICATION_TYPE was changed by increasing the number of values for each bin.
     -  Adding more neurons to the first and second layer (108 total each),following a rule of thumb: three times the number of features. Besides, adding more neurons could make the model smater,faster and more robust. 
-+ **Target model performance of 75% of accuracy:** Not achieved. Accuracy of 0.7262973785400391
++ **Target model performance of 75% of accuracy:** Not achieved. Accuracy of 0.7241982221603394
 pic
 
 ---
@@ -81,8 +81,8 @@ pic
  Relu in the first and second layer. Sigmoid in the output layer
 + **Additional Steps taken to increase model performance:**
     -  Adding a new layer for a total of 324 neurons (108 each) for the reasons explained above. Besides, changing the structure of the model with a new layer can help the model identifying nonlinear characteristics of the input data with no additional data. It is considered that 3 layers should be enough even for more complex model, so only 3 are used in this case.  
-    -  Increasing the number of epochs to the training regimen for a total of 150. This contributes to provide each neuron with more information about the input data, increasing the chances for the neurons to apply more effective weight coeficients.
-+ **Target model performance of 75% of accuracy:** Not achieved. Accuracy of 0.7257142663002014
+    -  Increasing the number of epochs to the training regimen for a total of 200. This contributes to provide each neuron with more information about the input data, increasing the chances for the neurons to apply more effective weight coeficients.
++ **Target model performance of 75% of accuracy:** Not achieved. Accuracy of 0.722449004650116
 pic     
 ---
 
